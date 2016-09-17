@@ -1,0 +1,206 @@
+/*font-family: 'Shadows Into Light', cursive;
+ font-family: 'Indie Flower', cursive;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+}
+
+/*FUENTES*/
+@font-face{
+font-family: 'Angsana New';
+src: url(../fonts/angsa.ttf) format("truetype");
+}
+
+@font-face{
+font-family: 'Angsana New Bold';
+src: url(../fonts/angsab.ttf) format("truetype");
+}
+
+@font-face{
+font-family: 'Franklin Gothic Book';
+src: url(../fonts/frabk.ttf) format("truetype");
+}
+
+@font-face{
+font-family: 'Franklin Gothic Book Italic';
+src: url(../fonts/frabkit.ttf) format("truetype");
+}
+
+@font-face{
+font-family: 'Franklin Gothic Heavy';
+src: url(../fonts/frahv.ttf) format("truetype");
+}
+
+@font-face{
+font-family: 'Franklin Gothic Heavy Italic';
+src: url(../fonts/frahvit.ttf) format("truetype");
+}
+
+/*ETIQUETAS*/
+body{
+//background-image: url(../img/fondo.jpg);
+//background-repeat: no-repeat;
+//background-size: cover;
+}
+
+h1{
+font-family: 'Angsana New';
+color: white;
+line-height: 35px;
+margin-top: 20px;
+margin-right: 20px;
+font-size: 45px;
+text-align: right; 
+}
+
+h2{
+font-family: 'Angsana New';
+color: rgb(255,89,0);
+margin-left: 20px;
+font-size: 30px;
+text-align: left; 
+}
+
+h3{
+font-family: 'Franklin Gothic Book';
+color: white;
+float: right;
+margin-top: 5px;
+margin-right: 20px;
+font-size: 10px;
+text-align: right; 
+}
+
+
+header{
+	width: 1000px;
+	height: 120 px;
+	//background: rgba(255, 255, 255, 10,70);
+	margin-bottom: 20px;
+}
+
+nav{
+float: left;	
+margin-top: 20px;
+width: 1000px;
+height: 55px;
+background: rgb(255, 89, 0);
+border-radius: 10px;
+
+}
+
+ul{
+margin: auto;
+padding-top: 4px;
+}
+
+li{
+	width: 158px;
+	height: 20px;
+	text-align: center;
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: black;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset; 
+
+}
+
+section{
+	width: 700px;
+	background: white;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+section1{
+	width: 490px;
+	background: white;
+	height: 120px;
+	float: left;
+	//margin-top: 20px;
+	border-radius: 10px;
+}
+
+section2{
+	width: 490px;
+	background: rgb(0, 102, 128);
+	height: 120px;
+	float: right;
+	//margin-top: 20px;
+	border-radius: 10px;
+}
+
+aside{
+
+	width: 280px;
+	background: rgb(0,102,128);
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+
+footer{
+width: 980px;
+height: 55px;
+background: black;
+float: left;
+margin-top: 20px;
+padding-left: 20px;
+padding-top: 10px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+p{
+
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: blink; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
+
+/*SEUDO CLASES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
